@@ -1,38 +1,69 @@
+/* Common styles */
+
 .App {
   text-align: center;
+  margin-top: 50px;
+  transition: background-color 0.3s ease;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-section {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-section textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: green;
+  color: white; 
+}
+
+.output-section {
+  margin-top: 20px;
+}
+
+.output-section h2 {
+  margin-bottom: 10px;
+}
+
+.output-section p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Light theme */
+
+.App.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Dark theme */
+
+.App.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-switch {
+  margin-top: 20px;
+  
+}
+
+.theme-switch button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: green;
   color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

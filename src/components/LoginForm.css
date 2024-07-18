@@ -1,0 +1,47 @@
+/* src/components/LoginForm.css */
+
+.login-form {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .login-form.dark {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
